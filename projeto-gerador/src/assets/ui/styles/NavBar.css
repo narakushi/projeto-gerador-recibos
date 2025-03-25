@@ -1,0 +1,29 @@
+.navbar {
+  width: 100%;
+}
+
+.navbar__content {
+  max-width: 120rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.navbar__content-img {
+  width: 10.6rem;
+}
+
+.navbar__content-img img {
+  max-width: 100%;
+}
+
+.navbar__content-btns {
+  display: flex;
+  gap: 2rem;
+
+}
+
+.navbar__content__pipe {
+  border-left: 0.2rem solid var(--secondary-color);
+}

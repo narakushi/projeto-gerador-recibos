@@ -1,19 +1,24 @@
 import React from "react";
+import logo from "../imgs/logo.svg";
+import Button from "../components/Button";
+import "../styles/NavBar.css";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav>
-      <div><img src="" alt="" /></div>
-      <div>
-        <button>
-          Entrar
-        </button>
-        <button>
-          Fazer cadastro
-        </button>
+    <nav className="navbar">
+      <div className="navbar__content">
+        <Link to="/" className="navbar__content-img">
+          <img src={logo} alt="" />
+        </Link>
+        <div className="navbar__content-btns">
+          <Button text="Entrar" customClass="button-variant" />
+          <div className="navbar__content__pipe"></div>
+          <Button text="Fazer cadastro" />
+        </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
 export default NavBar;
