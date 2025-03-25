@@ -1,3 +1,14 @@
+:root {
+  --primary-color: #1E0042;
+  --secondary-color: #5600BF;
+  --tertiary-color: #30006A;
+  --transparent-color: rgba(212, 212, 212, 0.06);
+  --clear-color: #E8E1F0;
+  --grey-color: #262626;
+  --clear-grey-color: #BBBBBB;
+  --clear-grey-color2: #DBDBDB;
+}
+
 * {
   margin: 0;
   padding: 0;
