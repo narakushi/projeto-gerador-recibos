@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import "../styles/Button.css";
 
-function Button({text}) {
+function Button({text, customClass}) {
   return (
-    <button>{text}</button>
+    <button className={`button ${customClass}`}>{text}</button> 
   )
 }
 

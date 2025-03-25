@@ -1,0 +1,15 @@
+.button {
+  border: none;
+  background: var(--secondary-color);
+  padding: 1rem;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  border-radius: .4rem; 
+  color: var(--clear-color);
+  font-weight: 500;
+}
+
+.button-variant {
+  border: .2rem solid var(--secondary-color);
+  background: transparent;
+}
