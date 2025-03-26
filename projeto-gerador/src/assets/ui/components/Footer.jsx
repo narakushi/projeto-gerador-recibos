@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 import logo from "../imgs/logo.svg";
 
-function Footer() {
+const Footer = () => {
   return (
     <footer>
       <div>

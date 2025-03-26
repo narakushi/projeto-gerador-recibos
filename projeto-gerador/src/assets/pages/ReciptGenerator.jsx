@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ReciptGenerator() {
+const ReciptGenerator = () => {
   return (
     <div>ReciptGenerator</div>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function RegisterStepTwo() {
+const RegisterStepTwo = () => {
   return (
     <div>RegisterStepTwo</div>
   )
