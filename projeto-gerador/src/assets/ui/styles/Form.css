@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--transparent-color);
+  backdrop-filter: blur(1rem);
+  width: 60%;
+  padding: 2rem;
+  border-radius: 1.6rem;
+}
+
+.form__content {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form__content h2 {
+  color: var(--clear-color);
+}
+
+.form__content button {
+  align-self: flex-end;
+}
+
+.form__container-input {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form__sub-container {
+  display: flex;
+  gap: 2rem;
+}

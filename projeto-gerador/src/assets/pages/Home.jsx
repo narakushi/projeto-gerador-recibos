@@ -12,7 +12,9 @@ const Home = () => {
       <NavBar />
       <Title text="Bem-vindo ao gerador de recibos" />
       <p>Gere aqui de forma fácil seus documentos</p>
-      <Form data={inputsDataUser}/>
+      <div className="home__container-form">
+        <Form data={inputsDataUser}/>
+      </div>
     </section>
   );
 }
