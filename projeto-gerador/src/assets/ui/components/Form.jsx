@@ -7,8 +7,8 @@ const Form = ({ data }) => {
     <form action="">
       <h2>Comece informando seus dados para cadastro</h2>
       <div>
-        {data.map((input) => (
-          <Input {...input} />
+        {data.map((inputs) => (
+          <div>{inputs.map((input) => <Input {...input} />)}</div>
         ))}
       </div>
 
