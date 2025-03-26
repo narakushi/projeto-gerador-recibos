@@ -7,6 +7,7 @@
   --grey-color: #262626;
   --clear-grey-color: #BBBBBB;
   --clear-grey-color2: #DBDBDB;
+  --transparent-bk-color: rgba(0, 0, 0, 0.3);
 }
 
 * {
