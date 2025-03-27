@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  height: 12rem;
+  background: var(--transparent-color);
+  position: relative;
+  bottom: 0rem;
+  padding: 4rem;
+}
+
+.footer__container {
+  max-width: 120rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__container-img {
+  max-width: 14rem;
+}
+
+.footer__container-img img {
+  width: 100%;
+}
