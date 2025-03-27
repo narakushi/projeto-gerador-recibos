@@ -9,7 +9,7 @@ import Container from "../ui/components/Container";
 
 const Home = () => {
   return (
-    <div className="home">
+    <>
       <NavBar />
       <Container>
         <Title text="Bem-vindo ao gerador de recibos" />
@@ -18,7 +18,7 @@ const Home = () => {
           <Form data={inputsDataUser}/>
         </div>
       </Container>
-    </div>
+    </>
   );
 }
 
