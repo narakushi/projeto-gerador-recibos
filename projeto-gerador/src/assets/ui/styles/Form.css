@@ -42,3 +42,9 @@
 .form__sub-container:nth-child(3) .container-input:nth-child(1) {
   width: 100%;
 }
+
+@media all and (max-width: 834px) {
+  .form__sub-container {
+    flex-direction: column;
+  }
+}
