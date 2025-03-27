@@ -25,3 +25,9 @@
 .navbar__content__pipe {
   border-left: 0.2rem solid var(--secondary-color);
 }
+
+@media all and (max-width: 600px) {
+  .navbar__content-btns {
+    display: none;
+  }
+}
