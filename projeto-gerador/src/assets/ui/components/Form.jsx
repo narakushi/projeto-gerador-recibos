@@ -17,7 +17,7 @@ const Form = ({ data }) => {
             </div>
           ))}
         </div>
-        <Button text="Inserir dados do recebedor" icon=">" />
+        <Button text="Inserir dados do recebedor" icon=">" url="/register-step-two" />
       </section>
     </form>
   );

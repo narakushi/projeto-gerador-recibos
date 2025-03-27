@@ -21,9 +21,11 @@
 
 .form__content h2 {
   color: var(--clear-color);
+  font-weight: 500;
+  font-size: 1.6rem;
 }
 
-.form__content button {
+.form__content a {
   align-self: flex-end;
 }
 
