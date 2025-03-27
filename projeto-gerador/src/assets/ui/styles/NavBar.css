@@ -3,11 +3,9 @@
 }
 
 .navbar__content {
-  max-width: 120rem;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 0; 
 }
 
 .navbar__content-img {

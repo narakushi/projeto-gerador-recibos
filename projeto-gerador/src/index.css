@@ -24,12 +24,11 @@ html {
 html,
 #root {
   width: 100%;
-  height: 100svh;
+  height: 100vh;
 }
 
 body {
   width: 100%;
-  height: 100%;
   background: var(--primary-color);
   background-image: url("../src/assets/ui/imgs/shapes-bg.svg");
   background-position: center center;
