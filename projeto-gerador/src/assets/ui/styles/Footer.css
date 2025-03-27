@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  height: 12rem;
+  min-height: 12rem;
   background: var(--transparent-color);
   position: relative;
   bottom: 0rem;
@@ -29,7 +29,7 @@
 
 .footer__pipe--right {
   height: 6rem;
-  border-right: .1rem solid var(--secondary-color);
+  border-right: 0.1rem solid var(--secondary-color);
 }
 
 .footer__texts {
@@ -47,5 +47,34 @@
 }
 
 .footer__pipe {
-  border-top: .1rem solid var(--secondary-color);
+  border-top: 0.1rem solid var(--secondary-color);
+}
+
+@media all and (max-width: 600px) {
+  .footer__container {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .footer__container::before,
+  .footer__container::after {
+    content: "";
+    position: relative;
+    width: 100%;
+    border-top: 0.1rem solid var(--secondary-color);
+  }
+
+  .footer__container-img {
+    flex-direction: column;
+    order: -1;
+  }
+
+  .footer__pipe--right {
+    display: none;
+  }
+
+  .footer__buttons {
+    order: 2;
+    width: 100%;
+  }
 }
