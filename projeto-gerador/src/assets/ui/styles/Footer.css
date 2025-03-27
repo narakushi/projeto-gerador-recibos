@@ -18,9 +18,33 @@
 }
 
 .footer__container-img {
-  max-width: 14rem;
+  width: 14rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__container-img img {
-  width: 100%;
+  max-width: 100%;
+}
+
+.footer__pipe--right {
+  height: 6rem;
+  border-right: .1rem solid var(--secondary-color);
+}
+
+.footer__texts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.footer__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer__pipe {
+  border-top: .1rem solid var(--secondary-color);
 }
