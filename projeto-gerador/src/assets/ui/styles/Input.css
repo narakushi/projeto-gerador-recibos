@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
-
 }
 
 .container-input__label {
@@ -25,4 +24,8 @@
   border: .1rem solid var(--secondary-color);
   outline: none;
   border-radius: .4rem;
+}
+
+.container-input__input:focus {
+  outline: .3rem solid var(--secondary-color);
 }
