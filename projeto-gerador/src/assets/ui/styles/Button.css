@@ -7,9 +7,14 @@
   border-radius: .4rem; 
   color: var(--clear-color);
   font-weight: 500;
+  transition: all .4s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .button-variant {
   border: .2rem solid var(--secondary-color);
   background: transparent;
+}
+
+.button:hover {
+  scale: 1.1;
 }
