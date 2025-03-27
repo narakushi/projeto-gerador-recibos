@@ -8,7 +8,7 @@ import { useState } from "react";
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
-  
+
   return (
     <nav className="navbar">
       <div className="navbar__content">
@@ -20,7 +20,7 @@ const NavBar = () => {
           <div className="navbar__content__pipe"></div>
           <Button text="Fazer cadastro" />
         </div>
-        <HamburguerMenu />
+        <HamburguerMenu open={open} setOpen={() => setOpen(!open)} />
       </div>
     </nav>
   );

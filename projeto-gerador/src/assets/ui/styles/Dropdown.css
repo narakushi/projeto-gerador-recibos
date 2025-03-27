@@ -1,0 +1,22 @@
+.dropdown {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  gap: 2rem;
+  right: 2rem;
+  top: 5rem;
+  background: var(--transparent-color);
+  width: 18rem;
+  height: 15rem;
+  z-index: 1;
+  padding: 2rem;
+  justify-content: center;
+  backdrop-filter: blur(1rem);
+  border-radius: .8rem;
+}
+
+@media all and (max-width: 600px) {
+  .dropdown {
+    display: flex;
+  }
+}
