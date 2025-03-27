@@ -44,6 +44,9 @@
 }
 
 @media all and (max-width: 834px) {
+  .form, .form__content  {
+    width: 100%;
+  }
   .form__sub-container {
     flex-direction: column;
   }
