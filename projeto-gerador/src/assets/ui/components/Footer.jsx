@@ -2,15 +2,16 @@ import React from "react";
 import Button from "./Button";
 import logo from "../imgs/logo.svg";
 import "../styles/Footer.css"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container">
-        <div className="footer__container-img">
-          <img src={logo} alt="" />
+        <Link to="/" className="footer__container-img">
+          <img src={logo} alt="Logo gerador de recibos" />
           <div className="footer__pipe--right"></div>
-        </div>
+        </Link>
         <div className="footer__texts">
           <span>Todos os direitos reservados - Gerador de Recibos</span>
           <span>Desenvolvido por Tainá Santana</span>
