@@ -1,0 +1,44 @@
+[
+  [
+    {
+      "type": "text",
+      "name": "receiverName",
+      "id": "receiverName",
+      "label": "Nome do recebedor"
+    },
+    {
+      "type": "text",
+      "name": "receiverLastName",
+      "id": "receiverLastName",
+      "label": "Sobrenome do recebedor"
+    }
+  ],
+  [
+    {
+      "type": "text",
+      "name": "receiverCPF",
+      "id": "receiverCPF",
+      "label": "CPF do recebedor"
+    },
+    {
+      "type": "text",
+      "name": "receiverCEP",
+      "id": "receiverCEP",
+      "label": "CEP do recebedor"
+    }
+  ],
+  [
+    {
+      "type": "address",
+      "name": "receiverAddress",
+      "id": "receiverAddress",
+      "label": "Endereço do recebedor"
+    },
+    {
+      "type": "text",
+      "name": "receiverHouseNumber",
+      "id": "receiverHouseNumber",
+      "label": "Número da casa do recebedor"
+    }
+  ]
+]
