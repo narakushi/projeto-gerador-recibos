@@ -45,7 +45,7 @@
   width: 100%;
 }
 
-@media all and (max-width: 834px) {
+@media all and (max-width: 1024px) {
   .form, .form__content  {
     width: 100%;
   }

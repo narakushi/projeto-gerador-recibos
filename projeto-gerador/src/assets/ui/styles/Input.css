@@ -30,7 +30,7 @@
   outline: 0.3rem solid var(--secondary-color);
 }
 
-@media all and (max-width: 834px) {
+@media all and (max-width: 1024px) {
   .container-input:nth-child(1),
   .container-input:nth-child(2) {
     width: 100%;

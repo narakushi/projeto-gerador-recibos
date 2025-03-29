@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 12rem;
   background: var(--transparent-color);
-  position: relative;
+  position: absolute;
   bottom: 0rem;
   padding: 4rem;
 }
@@ -48,9 +48,13 @@
 
 .footer__pipe {
   border-top: 0.1rem solid var(--secondary-color);
-}
+}  
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 1024px) {
+  .footer {
+    position: relative;
+  }
+
   .footer__container {
     flex-direction: column;
     gap: 4rem;
