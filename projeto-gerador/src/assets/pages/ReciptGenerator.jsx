@@ -1,9 +1,9 @@
 import React from 'react';
-import NavBarIntern from '../ui/components/NavBarIntern';
+import NavBarIn from '../ui/components/NavBarIn';
 
 const ReciptGenerator = () => {
   return (
-    <NavBarIntern />
+    <NavBarIn />
   )
 }
 
