@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import NavBarIntern from '../ui/components/NavBarIntern';
 
 const ReciptGenerator = () => {
   return (
-    <div>ReciptGenerator</div>
+    <NavBarIntern />
   )
 }
 

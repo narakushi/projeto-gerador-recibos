@@ -24,7 +24,8 @@ html {
 html,
 #root, body {
   width: 100%;
-  min-height: 100vh;
+  height: 100svh;
+  min-height: max-content;
 }
 
 body {
@@ -44,6 +45,6 @@ body::before {
   background: rgba(0, 0, 0, 0.3);
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: max-content;
   z-index: -1;
 }

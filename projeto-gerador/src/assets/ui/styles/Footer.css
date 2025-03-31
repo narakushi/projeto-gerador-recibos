@@ -2,9 +2,9 @@
   width: 100%;
   min-height: 12rem;
   background: var(--transparent-color);
-  position: absolute;
-  bottom: 0rem;
+  position: relative;
   padding: 4rem;
+  bottom: 0;
 }
 
 .footer__container {
