@@ -20,7 +20,7 @@ const RegisterStepTwo = () => {
           <Form
             data={inputsDataReceiver}
             subText="Obtenha em formato PDF a segurança das suas ações de compra e venda!"
-            btnText="Prosseguir com cadastro"
+            btnText="Concluir cadastro"
             url="/recipt-generator"
             icon={<IoIosArrowForward />}
           />
