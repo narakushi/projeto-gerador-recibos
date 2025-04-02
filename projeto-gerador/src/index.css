@@ -8,6 +8,8 @@
   --clear-grey-color: #bbbbbb;
   --clear-grey-color2: #dbdbdb;
   --transparent-bk-color: rgba(0, 0, 0, 0.3);
+  --white-color: #fff;
+  --black-color: #000;
 }
 
 * {
@@ -22,7 +24,8 @@ html {
 }
 
 html,
-#root, body {
+#root,
+body {
   width: 100%;
   height: 100svh;
   min-height: max-content;
