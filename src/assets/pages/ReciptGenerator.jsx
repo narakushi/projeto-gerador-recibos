@@ -17,7 +17,7 @@ const ReciptGenerator = () => {
           <div className="generator-box__header">
             <div className="generator-box__header-child">Recibo nº 01</div>
             <div className="generator-box__header-child">
-              <span>Valor:</span>
+              <span>Valor</span>
               <input type="text" name="" id="" value="R$ 2000,00" />
             </div>
           </div>
@@ -36,7 +36,7 @@ const ReciptGenerator = () => {
                 comprovante.
               </p>
             </div>
-
+            <hr />
             <div className="generator-box__components">
               <div className="generator-box__component-child">
                 <div></div>
