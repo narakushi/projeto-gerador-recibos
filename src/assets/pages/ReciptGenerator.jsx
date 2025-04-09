@@ -26,7 +26,7 @@ const ReciptGenerator = () => {
               <p>
                 Recebi do Srº. Damião Souza da Silva, CPF 000.000.000-00,
                 residente na Rua X, Bairro Y, São Borja-RS, CEP XXXXX-XXX, a
-                importância de R$2000,00 reais, referente à venda do imóvel
+                importância de <strong>R$2000,00</strong> reais, referente à venda do imóvel
                 localizado na Rua X, Bairro Y, São Borja-RS, CEP XXXXX-XXX.
               </p>
               <p>
