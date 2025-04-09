@@ -1,0 +1,30 @@
+.button {
+  border: none;
+  background: var(--secondary-color);
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  border-radius: .4rem; 
+  color: var(--clear-color);
+  font-weight: 500;
+  transition: all .4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  font-size: 1.4rem;
+  text-decoration: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.button svg {
+  font-size: 2rem;
+}
+
+.button-variant {
+  border: .2rem solid var(--secondary-color);
+  background: transparent;
+}
+
+.button:hover {
+  scale: 1.1;
+}

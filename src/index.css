@@ -1,0 +1,54 @@
+:root {
+  --primary-color: #1e0042;
+  --secondary-color: #5600bf;
+  --tertiary-color: #30006a;
+  --transparent-color: rgba(212, 212, 212, 0.06);
+  --clear-color: #e8e1f0;
+  --grey-color: #262626;
+  --clear-grey-color: #bbbbbb;
+  --clear-grey-color2: #dbdbdb;
+  --transparent-bk-color: rgba(0, 0, 0, 0.3);
+  --white-color: #fff;
+  --black-color: #000;
+  --clear-black: #030303;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Raleway", sans-serif;
+}
+
+html,
+#root,
+body {
+  width: 100%;
+  height: 100svh;
+  min-height: max-content;
+}
+
+body {
+  width: 100%;
+  background: var(--primary-color);
+  background-image: url("../src/assets/ui/imgs/shapes-bg.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  color: var(--clear-color);
+}
+
+body::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  height: max-content;
+  z-index: -1;
+}

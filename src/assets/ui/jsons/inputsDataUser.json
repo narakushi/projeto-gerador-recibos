@@ -1,0 +1,52 @@
+[
+  [
+    {
+      "type": "text",
+      "name": "name",
+      "id": "name",
+      "label": "Nome"
+    },
+    {
+      "type": "text",
+      "name": "lastName",
+      "id": "lastName",
+      "label": "Sobrenome completo"
+    }
+  ],
+  [
+    {
+      "type": "text",
+      "name": "cpf",
+      "id": "cpf",
+      "label": "CPF"
+    },
+    {
+      "type": "text",
+      "name": "cep",
+      "id": "cep",
+      "label": "CEP"
+    }
+  ],
+  [
+    {
+      "type": "address",
+      "name": "address",
+      "id": "address",
+      "label": "Endereço"
+    },
+    {
+      "type": "text",
+      "name": "houseNumber",
+      "id": "houseNumber",
+      "label": "Número da casa"
+    }
+  ],
+  [
+    {
+      "type": "text",
+      "name": "reason",
+      "id": "reasonReceipt",
+      "label": "Motivo do recibo"
+    }
+  ]
+]

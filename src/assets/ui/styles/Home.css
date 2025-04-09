@@ -1,0 +1,27 @@
+.home {
+  margin-top: 2%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.home__text, .home h1 {
+  align-self: flex-start;
+}
+
+.home__text {
+  font-size: 1.8rem;
+
+}
+
+.home__container-form {
+  width: 100%;
+
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

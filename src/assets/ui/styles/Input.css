@@ -1,0 +1,38 @@
+.container-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.container-input__label {
+  font-size: 1.6rem;
+  color: var(--clear-color);
+}
+
+.container-input:nth-child(1) {
+  width: 50%;
+}
+
+.container-input:nth-child(2) {
+  width: 65%;
+}
+
+.container-input__input {
+  background: var(--clear-color);
+  width: 100%;
+  padding: 0.65rem 1rem;
+  border: 0.1rem solid var(--secondary-color);
+  outline: none;
+  border-radius: 0.4rem;
+}
+
+.container-input__input:focus {
+  outline: 0.3rem solid var(--secondary-color);
+}
+
+@media all and (max-width: 1024px) {
+  .container-input:nth-child(1),
+  .container-input:nth-child(2) {
+    width: 100%;
+  }
+}

@@ -1,0 +1,33 @@
+.navbar {
+  width: 100%;
+}
+
+.navbar__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0; 
+}
+
+.navbar__content-img {
+  width: 10.6rem;
+}
+
+.navbar__content-img img {
+  max-width: 100%;
+}
+
+.navbar__content-btns {
+  display: flex;
+  gap: 2rem;
+
+}
+
+.navbar__content__pipe {
+  border-left: 0.2rem solid var(--secondary-color);
+}
+
+@media all and (max-width: 600px) {
+  .navbar__content-btns {
+    display: none;
+  }
+}

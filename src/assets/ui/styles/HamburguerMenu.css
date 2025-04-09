@@ -1,0 +1,19 @@
+.menu-h {
+  display: none;
+  width: 4rem;
+  text-align: center;
+  font-size: 2.4rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.menu-h:hover {
+  color: #6f00ff;
+  border-radius: 360rem;
+}
+
+@media all and (max-width: 600px) {
+  .menu-h {
+    display: block;
+  }
+}
